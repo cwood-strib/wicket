@@ -21,7 +21,7 @@ func main() {
 		return
 	}
 
-	// TODO: This should be constrained against AWS types;
+	// TODO: This should be constrained against AWS types or at least valid regions
 	awsRegionPtr := flag.String("region", "us-west-1", "AWS Region")
 	metricNameSpacePtr := flag.String("namespace", "wicket-metrics", "Cloudwatch Metric Namespace")
 
