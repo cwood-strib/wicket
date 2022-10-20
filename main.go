@@ -65,5 +65,4 @@ func main() {
 		os.Stderr.WriteString("Failed to store metric data")
 		return
 	}
-
 }
